@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Window</title>
+    <script type="text/javascript" src="./src/window/window.js"></script>
+  </head>
+  <body>
+    <div class="emscripten_border">
+      <canvas class="emscripten" id="gl"></canvas>
+    </div>
+    <script>
+      Module.onRuntimeInitialized = () => {
+        Module._window_main();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+# IDE specific files
+.vscode
+
+# development specific files
+build
+scratch
+web/CMakeFiles
+web/CMakeCache.txt
+web/Makefile
+web/cmake_install.cmake
