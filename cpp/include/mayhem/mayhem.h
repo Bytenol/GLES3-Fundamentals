@@ -8,6 +8,7 @@
 
 #include <string>
 #include <climits>
+#include <vector>
 #include <emscripten/emscripten.h>
 #include <emscripten/bind.h>
 #include <emscripten/html5.h>
@@ -33,6 +34,8 @@ namespace mhy {
             bool load(const std::string& vs, const std::string& fs);
             const unsigned int& getProgram() const;
             void use();
+            void setUniformLocation(std::vector<std::string>);
+            int getUniformLocation() const;
             ~Shader();
 
         private:
@@ -40,6 +43,7 @@ namespace mhy {
             unsigned int program;
             unsigned int vertexShader;
             unsigned int fragmentShader;
+
     };
 
 }

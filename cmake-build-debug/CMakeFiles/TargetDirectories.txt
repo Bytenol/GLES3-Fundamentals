@@ -1,0 +1,7 @@
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/window.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/triangle.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/transformation.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/image.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/cube.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bytenol/Documents/programming/Github/GLES2 Emscripten/cmake-build-debug/CMakeFiles/rebuild_cache.dir

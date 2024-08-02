@@ -14,6 +14,8 @@ set(SRC_FILES
     "src/window.cpp"
     "src/triangle.cpp"
     "src/transformation.cpp"
+    "src/image.cpp"
+    "src/cube.cpp"
 )
 
 
@@ -22,7 +24,7 @@ SET(EXPORTED_RUNTIME_METHODS
     ccall
 )
 
-include_directories(cpp/deps/glm-master/glm)
+include_directories(cpp/deps/glm-master)
 include_directories(cpp/include)
 
 foreach (SRC IN LISTS SRC_FILES)

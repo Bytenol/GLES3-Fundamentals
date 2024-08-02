@@ -68,6 +68,9 @@ int triangle_main() {
     glUseProgram(shader.getProgram());
     glDrawArrays(GL_TRIANGLES, 0, positionLength / 3);
 
+    glDeleteBuffers(1, &vbo);
+    glDeleteVertexArrays(1, &vao);
+
     return 0;
 }
 
